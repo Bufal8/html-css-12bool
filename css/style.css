@@ -1,0 +1,12 @@
+[class*="col"]{
+    background-color: #006CFA;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+}
+
+[class*="col"] [class*="col"]{
+    background-color: limegreen;
+    border: 1px solid #006CFA;
+}
